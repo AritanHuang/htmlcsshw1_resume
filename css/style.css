@@ -132,3 +132,52 @@ table {
 *:after {
     box-sizing: border-box;
 }
+body{
+    line-height: 1.5;
+    text-align: left;
+}
+p{
+    font-size: 24px;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header h1{
+    font: normal normal normal 80px/95px SF Pro Text;
+    border-bottom: 2px solid #000;
+}
+.container img{
+    margin: 24px 0;
+    width: 324px;
+}
+.profile h2,.education h2{
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+.profile span,.education span{
+    font-size: 24px;
+    color: #A00404;
+    margin-left: 10px;
+}
+.profile :nth-child(3){
+    margin:18px 0 45px 0;
+}
+.education :nth-child(3){
+    margin: 18px 0 38px 0;
+}
+.skills{
+    background-color: #415165;
+    width: 100%;
+}
+.skills h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+
