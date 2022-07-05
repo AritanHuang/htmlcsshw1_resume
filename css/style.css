@@ -130,7 +130,8 @@ table {
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 body{
     line-height: 1.5;
