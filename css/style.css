@@ -137,7 +137,6 @@ body{
     line-height: 1.5;
     text-align: left;
     font-family: 'Microsoft JhengHei', sans-serif;
-    position: relative;
 }
 p,.skills_item li{
     font-size: 24px;
@@ -147,12 +146,12 @@ p,.skills_item li{
     margin: 0 auto;
 }
 .header h1{
-    font: normal normal normal 80px/95px SF Pro Text;
+    font-size: 80px;
+    line-height: 95px;
     border-bottom: 2px solid #000;
 }
 .container img{
     margin: 24px 0;
-    width: 324px;
 }
 .profile h2,.education h2,.experience h2{
     font-size: 32px;
@@ -165,10 +164,10 @@ p,.skills_item li{
     color: #A00404;
     margin-left: 15px;
 }
-.profile :nth-child(3){
+.profile_list :nth-child(2){
     margin:18px 0 45px 0;
 }
-.education :nth-child(3){
+.education_list :nth-child(2){
     margin: 18px 0 40px 0;
 }
 .skills{
@@ -195,7 +194,10 @@ p,.skills_item li{
 }
 .skills_item li{
     border-left: 1px solid #fff;
-    padding: 0 0 20px 20px;
+    padding-left: 20px;
+}
+.skills_item li:not(:last-child){
+    padding-bottom: 20px;
 }
 .experience_list{
     width: 650px;
@@ -219,11 +221,6 @@ p,.skills_item li{
 .footer{
     margin-top: 40px;
     background-color:#415165 ;
-    position: absolute;
-    bottom:-400px;
-    left:0px;
-    width: 100%;
-    z-index: -1;
 }
 .footer h2{
     text-align: center;
